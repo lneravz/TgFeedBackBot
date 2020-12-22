@@ -1,5 +1,5 @@
 from aiogram.utils.executor import start_webhook
-from bot import HEROKU_APP_NAME, WEBHOOK_URL, bot, executor, dp
+from bot import HEROKU_APP_NAME, WEBHOOK_URL, BOT_TOKEN, bot, executor, dp
 from importlib import import_module
 from asyncio import get_event_loop
 from os import listdir
@@ -20,7 +20,7 @@ for i in modules:
 if HEROKU_APP_NAME:
     start_webhook(
         dispatcher=dp,
-        webhook_path=WEBHOOK_URL,
+        webhook_path="/" + BOT_TOKEN,
         skip_updates=True,
         on_startup=on_startup,
         on_shutdown=on_shutdown,
