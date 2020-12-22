@@ -6,14 +6,14 @@
     <a href="https://t.me/LneravzSupport"><h2>Telegram Kanalı<h2></a>
 </div>
 
-##Kurulum
+## Kurulum
 
-###Heroku ile
+### Heroku ile
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lneravz/TgFeedBackBot)
 
 
-###Git ile
+### Git ile
 
 ```bash
 git clone https://github.com/lneravz/TgFeedBackBot
@@ -23,13 +23,13 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-##MongoDB
+## MongoDB
 
-###Neden MongoDB
+### Neden MongoDB
 
 MongoDB kullanmamızdaki amaç çalıştırdığımız ortamı değiştirsek de kayıtlarımız silinmeyecektir. Ücretsiz süreli heroku hesabı kullananlar yeni bir hesaba geçtiğinde değişiklikleri silinmez.
 
-###Nasıl ayarlanır?
+### Nasıl ayarlanır?
 
 <ol>
     <li>Öncelikler <a href="https://account.mongodb.com/account/register">buradan</a> kayıt oluşturun</li>
