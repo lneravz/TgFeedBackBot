@@ -2,8 +2,10 @@
     <a href="https://t.me/LneravzSupport">
         <img src="https://i.imgyukle.com/2020/12/22/aRoePf.jpg" width="300" height="300">
     </a>
-    <h1 align="center">Lneravz FeedBack Bot v1.0.0</h1><br>
-    <a href="https://t.me/LneravzSupport"><h2>Telegram Kanalı<h2></a>
+    <p align="center">
+        <h1>Lneravz FeedBack Bot v1.0.0</h1><br>
+        <a href="https://t.me/LneravzSupport">Telegram Kanalı</a>
+    </p>
 </div>
 
 ## Kurulum
