@@ -5,11 +5,11 @@ from asyncio import get_event_loop
 from os import listdir
 
 #https://github.com/aiogram/aiogram/blob/dev-2.x/examples/webhook_example.py
-async def on_startup():
+async def on_startup(dp):
     await bot.set_webhook(WEBHOOK_URL)
 
 
-async def on_shutdown():
+async def on_shutdown(dp):
     await bot.delete_webhook()
 
 
