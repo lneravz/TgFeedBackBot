@@ -5,7 +5,7 @@
     "keywords": ["telegram", "lneravz", "feedback", "bot", "create bot", "message bot"],
     "repository": "https://github.com/lneravz/TgFeedBackBot",
     "success_url": "https://t.me/LneravzSupport",
-    "stack": "Heroku-20",
+    "stack": "Heroku-18",
     "env": {
         "BOT_TOKEN": {
             "description": "Bot token from https://t.me/botfather",
