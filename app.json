@@ -4,7 +4,6 @@
     "logo": "https://i.imgyukle.com/2020/12/22/aRoePf.jpg",
     "keywords": ["telegram", "lneravz", "feedback", "bot", "create bot", "message bot"],
     "repository": "https://github.com/lneravz/TgFeedBackBot",
-    "success_url": "https://t.me/LneravzSupport",
     "env": {
         "BOT_TOKEN": {
             "description": "Bot token from https://t.me/botfather",
@@ -37,5 +36,5 @@
             "values": "TR"
         }
     },
-    "buildpacks": [{"url": "heroku/python"}],
+    "buildpacks": [{"url": "heroku/python"}]
 }
