@@ -17,10 +17,6 @@
             "desciption": "Mongodb password",
             "required": true
         },
-        "HEROKU_APP_NAME": {
-            "description": "Heroku app name",
-            "required": false
-        },
         "ADMIN_ID": {
             "description": "Your Telegram user id. You can give from @LneravzBot with /id command",
             "required": true
@@ -29,11 +25,6 @@
             "description": "Languages: TR/EN",
             "required": true,
             "value": "TR"
-        },
-        "TIMEZONE": {
-            "description": "Timezones: TR/EN",
-            "required": true,
-            "values": "TR"
         }
     },
     "buildpacks": [{"url": "heroku/python"}]
