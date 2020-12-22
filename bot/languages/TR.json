@@ -1,0 +1,23 @@
+{
+    "LANGUAGE": "TR",
+    "START_MESSAGE": "Bu bot <a href='https://github.com/lneravz/TgFeedBackBot'>LneravzFeedBackBot</a> tarafından oluşturulmuştur. Lütfen yardım mesajı için /help komutunu kullanın.",
+    "REPORT": "Raporla",
+    "HELP_MESSAGE": "Lütfen feedback göndermek için göndermek istediğiniz mesajı yanıtlayarak /send komutunu kullanın.",
+    "YOU_BANNED": "Geri bildirim gönderemezsiniz. Bot'tan yasaklandınız!",
+    "TIME_INTERVAL": "Geri bildirim göndermek için {m} dakika bekleyin.",
+    "SENDER": "Gönderen",
+    "FEEDBACK_SENT": "Feedback mesajı gönderildi. Lütfen cevabı bekleyin.",
+    "WRONG_FORMAT_ANSWER": "Yanlış kullanım biçimi.\nKullanım: /answer (user id)",
+    "WRONG_USER_ID": "Yanlış kullanıcı kimliği.Lütfen kontrol edip tekrar deneyin.",
+    "ANSWER_SENT": "Cevap <a href='tg://user?id={uid}'>kullanıcıya</a> gönderildi.",
+    "WRONG_FORMAT_BAN": "Yanlış kullanım biçimi.\nKullanımı: /ban (user id)",
+    "USER_ID_NOT_FOUND": "Kullanıcı kimlği bulunamadı.",
+    "ALREADY_BANNED": "Kullanıcı zaten banlandı.",
+    "BAN_COMPLETED": "Kullanıcı yasaklandı.",
+    "WRONG_FORMAT_UNBAN": "Yanlış kullanım biçimi:\nKullanımı: /unban (user id)",
+    "ADREADY_NOT_BANNED": "Kullanıcı zaten banlanmadı.",
+    "UNBAN_COMPLETED": "<a href='tg://user?id={uid}'>Kullanıcı</a> banı kaldırıldı!",
+    "WRONG_FORMAT_TIME": "Yanlış kullanım biçimi.\nÖrnek kullanım: /time 60",
+    "INTERVAL_SET": "Sıradaki mesaj için zaman aralığı ayarlandı.",
+    "HELP_OWNER_MESSAGE": "Sahip komutları:\n- /start - Botu başlatır\n- /help - Yarım menüsünü gösterir\n- /answer (user id) - Yanıtlanan mesajı kullanıcı kimliğine gönderir\n- /ban (user id) - Kullanıcının mesaj göndermesini yasaklar\n- /unban (user id) - Kullanıcının mesaj gönderme yasağını kaldırır\n- /time (minutes) - Bir kullanıcıya yeni bir mesaj göndermek için zaman aralığını ayarlar. (dakika olarak)\n\nDiğer kullanıcılar feedback göndermek için /send komutunu kullanır."
+}

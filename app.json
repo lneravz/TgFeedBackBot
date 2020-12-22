@@ -1,0 +1,41 @@
+{
+    "name": "Lneravz FeedBackBot",
+    "description": "Feedback Bot for Telegram",
+    "logo": "https://i.imgyukle.com/2020/12/22/aRoePf.jpg",
+    "keywords": ["telegram", "lneravz", "feedback", "bot", "create bot", "message bot"],
+    "repository": "https://github.com/lneravz/TgFeedBackBot",
+    "success_url": "https://t.me/LneravzSupport",
+    "stack": "Heroku-20",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Bot token from https://t.me/botfather",
+            "required": true
+        },
+        "MONGO_STRING": {
+            "description": "Python 3.6 or later mongo string",
+            "required": true
+        },
+        "MONGO_PASSWORD": {
+            "desciption": "Mongodb password",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku app name",
+            "required": false
+        },
+        "ADMIN_ID": {
+            "description": "Your Telegram user id. You can give from @LneravzBot with /id command",
+            "required": true
+        },
+        "LANGUAGE": {
+            "description": "Languages: TR/EN",
+            "required": true,
+            "value": "TR"
+        },
+        "TIMEZONE": {
+            "description": "Timezones: TR/EN",
+            "required": true,
+            "values": "TR"
+        }
+    }
+}

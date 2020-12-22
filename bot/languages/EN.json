@@ -1,0 +1,23 @@
+{
+    "LANGUAGE": "EN",
+    "START_MESSAGE": "This bot was created by <a href='https://github.com/lneravz/TgFeedBackBot'>LneravzFeedBackBot</a>. Please use /help command for help message.",
+    "REPORT": "Report",
+    "HELP_MESSAGE": "Please use /send command with reply message for send feedback and wait for answer from bot owner.",
+    "YOU_BANNED": "You can't send feedback. You banned from bot!",
+    "TIME_INTERVAL": "Wait {m} minutes for send feedback.",
+    "SENDER": "Sender",
+    "FEEDBACK_SENT": "Feedback message sent. Please wait for answer.",
+    "WRONG_FORMAT_ANSWER": "Wrong use format.\nUsage: /answer (user id)",
+    "WRONG_USER_ID": "Wrong user id. Please check it and try again.",
+    "ANSWER_SENT": "Answer sent to <a href='tg://user?id={uid}'>user</a>",
+    "WRONG_FORMAT_BAN": "Wrong use format.\nUsage: /ban (user id)",
+    "USER_ID_NOT_FOUND": "User id not found.",
+    "ALREADY_BANNED": "User id already banned.",
+    "BAN_COMPLETED": "<a href='tg://user?id={uid}'>User</a> banned!",
+    "WRONG_FORMAT_UNBAN": "Wrong use format.\nUsage: /unban (user id)",
+    "ALREADY_NOT_BANNED": "User not already banned",
+    "UNBAN_COMPLETED": "<a href='tg://user?id={uid}'>User</a> unbanned!",
+    "WRONG_FORMAT_TIME": "Wrong use format.\nExample usage: /time 60",
+    "INTERVAL_SET": "Time interval set for new message.",
+    "HELP_OWNER_MESSAGE": "Owner commands:\n- /start - Starts the bot\n- /help - Shows help menu\n- /answer (user id) - Sends replied message to user id\n- /ban (user id) - Bans the user from sending messages\n- /unban (user id) - Unbans the user from sending messages\n- /time (minutes) - Sets the time interval for sending a new message to a user\n\nOther users use /send command for sending feedback"
+}
