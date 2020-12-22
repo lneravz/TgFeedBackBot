@@ -31,16 +31,11 @@ with open(CONFIG_FILE_PATHS, "r") as file:
 BOT_TOKEN = env.get("BOT_TOKEN", config_dict.get("BOT_TOKEN", None))
 MONGO_STRING = env.get("MONGO_STRING", config_dict.get("MONGO_STRING", None))
 MONGO_PASSWORD = env.get("MONGO_PASSWORD", config_dict.get("MONGO_PASSWORD", None))
-HEROKU_APP_NAME = env.get("HEROKU_APP_NAME", config_dict.get("HOST_IP/DOMAIN_NAME", None))
 ADMIN_ID = env.get("ADMIN_ID", config_dict.get("ADMIN_ID", None))
 LANGUAGE = env.get("LANGUAGE", config_dict.get("LANGUAGE", "EN"))
 MONGO = MONGO_STRING.replace("<password>", MONGO_PASSWORD)
 LANG = globals()[LANGUAGE + "_LANG"]
 REPORT_URL = "https://t.me/lneravzbot?start="
-WEBHOOK_URL = ""
-
-if HEROKU_APP_NAME:
-    WEBHOOK_URL = "https://" + HEROKU_APP_NAME + ".herokuapp.com/"
 
 
 if None in (BOT_TOKEN, MONGO_STRING, MONGO_PASSWORD, ADMIN_ID):
